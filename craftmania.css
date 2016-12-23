@@ -1,5 +1,5 @@
 .room-background {
-    background: url(https://cdn.radiant.dj/rcs/bg/2k14tc.jpg) no-repeat !important;
+    background: url(http://i.imgur.com/P4GVhF4.png) no-repeat !important;
     width: 500% !important;
     height: 500% !important;
 }
@@ -34,7 +34,7 @@
 	background: linear-gradient(to left,rgba(0, 0, 0, 0.20) 10%,rgba(0, 0, 0, 0.65) 100%);
 }
 .welcome .text {
-	color:#DEDEDE;
+	color:#00FFFF;
 }
 .group.host {
 	color:#0B950B;
@@ -176,10 +176,10 @@ i.icon.icon-chat-dj {
     background: linear-gradient(to bottom,#00FFEB 0,#0075C8 100%);
 }
 .app-header {
-	background: linear-gradient(to bottom,rgba(0, 0, 0, 0.45) 0,rgba(0, 0, 0, 0.75) 100%);
+	background: linear-gradient(to bottom,rgba(0, 0, 0, 0.9) 0,rgba(0, 0, 0, 0.9) 100%);
 }
 #app-menu {
-	background: none;
+	background: linear-gradient(to bottom,rgba(0, 0, 0, 1) 0,rgba(61, 61, 61, 1) 100%);
 }
 #rs-skip-button {
 	background: none !important;
@@ -188,7 +188,7 @@ i.icon.icon-chat-dj {
 	background: none;
 }
 .header-panel-button.selected {
-	background: none;
+	background: linear-gradient(to bottom,rgba(0, 0, 0, 1) 0,rgba(61, 61, 61, 1) 100%);
 }
 #user-rollover {
 	border-radius: 30px 30px 0 0;
@@ -196,9 +196,9 @@ i.icon.icon-chat-dj {
 	box-shadow: 0 0 10px #000;
 }
 #user-rollover .info {
-	background: linear-gradient(rgba(0,247,255,0.45), rgba(0,43,255,0.45));
+	background: linear-gradient(rgba(230,255,0,0.45), rgba(255,179,0,0.45));
 	box-shadow: 0px -2px 10px -1px #000;
-	border-radius: 50% 50% 5 0 !important;
+	border-radius: 50% 50% 0 0 !important;
 }
 .thumb {
 	background: hsla(210,10%,10%,.4);
@@ -249,4 +249,53 @@ i.icon.icon-chat-dj {
 #user-rollover .action:hover {
 	background: linear-gradient(to bottom,rgba(0, 0, 0, 0.45) 0,rgba(0, 0, 0, 0.75) 100%) !important;
 	box-shadow: inset 0 0 50px #000 !important;
+}
+#playlist-panel {
+	background: linear-gradient(to bottom,rgba(0, 0, 0, 0.9) 0,rgba(0, 0, 0, 0.9) 100%) !important;
+}
+#playlist-menu {
+	background: none;
+}
+.media-list .row.selected {
+	background: #00ACAC !important;
+}
+#playlist-menu .menu .row.selected {
+	background: #00ACAC !important;
+}
+#playlist-menu .menu .row .count {
+	color: #FFFFFF !important;
+}
+#search {
+	background: none !important;
+}
+#search-bar {
+	background: none !important;
+}
+.media-list .selected .actions {
+	background: #007D7D !important;
+}
+.media-list .row .now-playing {
+	background: #00ACAC !important;
+}
+#playlist-edit-button {
+	background: none;
+}
+#playlist-shuffle-button {
+	background: none;
+}
+#playlist-delete-button {
+	background: none;
+}
+.experience .xp .bar .progress {
+    border-color: hsl(198,80%,45%) !important;
+	box-shadow: 0 0 7px hsl(198, 80%, 45%) !important;
+}
+#playlist-import {
+	background: none;
+}
+#playlist-create {
+	background: none;
+}
+#chat-input {
+	border-radius: 30px 0 0 30px !important;
 }
