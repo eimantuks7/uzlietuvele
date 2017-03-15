@@ -1,5 +1,5 @@
 .room-background {
-    background: url(http://i.imgur.com/P4GVhF4.png) no-repeat !important;
+    background: url(https://cdn.radiant.dj/rcs/bg/2k15beach.jpg) no-repeat !important;
     width: 500% !important;
     height: 500% !important;
 }
@@ -119,7 +119,7 @@ i.icon.icon-chat-dj {
 	box-shadow: inset 0 0 10px hsl(0,0%,40%) !important;
 }
 #woot.selected, #woot-rs .title {
-	background: linear-gradient(135deg, hsla(90,80%,50%,.8), hsla(90,80%,30%,.8)) !important;
+	background: linear-gradient(135deg, hsla(90,80%,50%,.3), hsla(90,80%,30%,.3)) !important;
 	box-shadow: inset 0 0 10px hsl(70,100%,40%) !important;
 }
 #grab {
@@ -127,7 +127,7 @@ i.icon.icon-chat-dj {
 	box-shadow: inset 0 0 10px hsl(0,0%,40%) !important;
 }
 #grab.selected, #grab-rs .title {
-	background: linear-gradient(hsla(270,70%,50%,.8), hsla(265,70%,30%,.8)) !important;
+	background: linear-gradient(hsla(270,70%,50%,.3), hsla(265,70%,30%,.3)) !important;
 	box-shadow: inset 0 0 10px hsl(280,100%,40%) !important;
 }
 #meh {
@@ -137,7 +137,7 @@ i.icon.icon-chat-dj {
 	margin-right: 0 !important;
 }
 #meh.selected, #meh-rs .title {
-	background: linear-gradient(225deg, hsla(5,80%,50%,.8), hsla(0,80%,40%,.8)) !important;
+	background: linear-gradient(225deg, hsla(5,80%,50%,.3), hsla(0,80%,40%,.3)) !important;
 	box-shadow: inset 0 0 10px hsl(15,100%,50%) !important;
 }
 #dj-button.is-wait, #dj-button.is-leave, #dj-button.is-quit, #dj-button.is-locked, #dj-button.is-full {
@@ -298,4 +298,13 @@ i.icon.icon-chat-dj {
 }
 #chat-input {
 	border-radius: 30px 0 0 30px !important;
+}
+#app-menu, #app-menu .list {
+    background: linear-gradient(to bottom,rgba(0, 0, 0, 0.9) 0,rgba(0, 0, 0, 0.9) 100%) !important; 
+}
+#dj-button.is-leave .left, #dj-button.is-quit .left {
+    background: linear-gradient(to bottom,rgba(244, 107, 64, 1),rgba(244, 107, 48, 1) 100%) !important;
+}
+#playback .background img {
+    background-image: url(null) !important;
 }
